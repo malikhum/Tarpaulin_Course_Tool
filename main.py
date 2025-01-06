@@ -8,7 +8,7 @@ from urllib.request import urlopen
 import ssl
 
 app = Flask(__name__)
-app.secret_key = 'SECRET_KEY'
+app.secret_key = ''
 
 # Google Cloud Datastore and Storage clients
 client = datastore.Client()
