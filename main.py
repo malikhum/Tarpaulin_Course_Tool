@@ -18,9 +18,9 @@ bucket_name = "avatars-malikhuma6"
 
 
 # Auth0 Configuration
-CLIENT_ID = 'PpdVHWY4RU9txAh7OGgPEB4FOof06vo3'
-CLIENT_SECRET = '243j9_qapHEVbRbxJ2BIFkjnamDd1lcCmzLq-cvPXb7c-B2eVAsIwuEsYBtLsZzm'
-DOMAIN = 'dev-t7xft2dnz5y0z1pe.us.auth0.com'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+DOMAIN = ''
 ALGORITHMS = ["RS256"]
 
 # SSL bypass context for local development
