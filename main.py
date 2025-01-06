@@ -8,7 +8,7 @@ from urllib.request import urlopen
 import ssl
 
 app = Flask(__name__)
-app.secret_key = ''
+# app.secret_key = ''
 
 # Google Cloud Datastore and Storage clients
 client = datastore.Client()
@@ -18,10 +18,10 @@ bucket_name = "avatars-malikhuma6"
 
 
 # Auth0 Configuration
-CLIENT_ID = ''
-CLIENT_SECRET = ''
-DOMAIN = ''
-ALGORITHMS = ["RS256"]
+# CLIENT_ID = ''
+# CLIENT_SECRET = ''
+# DOMAIN = ''
+# ALGORITHMS = ["RS256"]
 
 # SSL bypass context for local development
 ssl_context = ssl.create_default_context()
@@ -730,4 +730,4 @@ def get_enrollment(course_id):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    # app.run(host="0.0.0.0", port=8080)
